@@ -1,0 +1,28 @@
+# dune build
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/yusra/.cache/dune/db
+# Workspace root: /home/yusra/MAZLANI_ELBELAIZI_BARHOUMI
+# Auto-detected concurrency: 4
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /usr/bin/ocamlc.opt -config > /tmp/dune_f39ecb_output
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/byte -no-alias-deps -opaque -o lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/byte/mAZLANI_ELBELAIZI_BARHOUMI.cmo -c -impl lib/mAZLANI_ELBELAIZI_BARHOUMI.ml-gen)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I test/.test_MAZLANI_ELBELAIZI_BARHOUMI.eobjs/byte -no-alias-deps -opaque -o test/.test_MAZLANI_ELBELAIZI_BARHOUMI.eobjs/byte/dune__exe__Test_MAZLANI_ELBELAIZI_BARHOUMI.cmo -c -impl test/test_MAZLANI_ELBELAIZI_BARHOUMI.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/MAZLANI_ELBELAIZI_BARHOUMI.cma lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/byte/mAZLANI_ELBELAIZI_BARHOUMI.cmo)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/byte -I lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/native/mAZLANI_ELBELAIZI_BARHOUMI.cmx -c -impl lib/mAZLANI_ELBELAIZI_BARHOUMI.ml-gen)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I test/.test_MAZLANI_ELBELAIZI_BARHOUMI.eobjs/byte -I test/.test_MAZLANI_ELBELAIZI_BARHOUMI.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -o test/.test_MAZLANI_ELBELAIZI_BARHOUMI.eobjs/native/dune__exe__Test_MAZLANI_ELBELAIZI_BARHOUMI.cmx -c -impl test/test_MAZLANI_ELBELAIZI_BARHOUMI.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I bin/.main.eobjs/byte -I lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/byte -no-alias-deps -opaque -o bin/.main.eobjs/byte/dune__exe__Main.cmo -c -impl bin/main.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/test_MAZLANI_ELBELAIZI_BARHOUMI.bc test/.test_MAZLANI_ELBELAIZI_BARHOUMI.eobjs/byte/dune__exe__Test_MAZLANI_ELBELAIZI_BARHOUMI.cmo)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/MAZLANI_ELBELAIZI_BARHOUMI.cmxa lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/native/mAZLANI_ELBELAIZI_BARHOUMI.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/byte -I lib/.MAZLANI_ELBELAIZI_BARHOUMI.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -shared -linkall -I lib -o lib/MAZLANI_ELBELAIZI_BARHOUMI.cmxs lib/MAZLANI_ELBELAIZI_BARHOUMI.cmxa)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/test_MAZLANI_ELBELAIZI_BARHOUMI.exe test/.test_MAZLANI_ELBELAIZI_BARHOUMI.eobjs/native/dune__exe__Test_MAZLANI_ELBELAIZI_BARHOUMI.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/main.exe lib/MAZLANI_ELBELAIZI_BARHOUMI.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)

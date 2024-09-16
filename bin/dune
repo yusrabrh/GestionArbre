@@ -1,0 +1,4 @@
+(executable
+ (public_name MAZLANI_ELBELAIZI_BARHOUMI)
+ (name main)
+ (libraries MAZLANI_ELBELAIZI_BARHOUMI))

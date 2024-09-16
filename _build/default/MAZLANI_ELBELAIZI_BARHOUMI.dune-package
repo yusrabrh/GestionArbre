@@ -1,0 +1,4 @@
+(lang dune 3.15)
+(name MAZLANI_ELBELAIZI_BARHOUMI)
+(sections (lib .) (bin ../../bin))
+(files (lib (META dune-package opam)) (bin (MAZLANI_ELBELAIZI_BARHOUMI)))
